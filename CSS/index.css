@@ -1,3 +1,76 @@
 body {
     margin: 0;
 }
+
+header {
+    background: #f44346;
+}
+
+.sidenav {
+    position: fixed;
+    background: #f44346;
+    margin: 0;
+}
+.list {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px 30px;
+}
+
+
+li:hover {
+    background: white;
+}
+
+.Home {
+    background: white;
+}
+
+.Home:hover {
+    background: lightgray;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+h6 {
+    color: white;
+    font-size: 1.7em;
+}
+
+.btn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 900;
+    border: none;
+    font-size: 1.2em;
+}
+
+main {
+    margin: 0 100px;
+}
+
+i {
+    color: #f44346;
+    font-size: 250px;
+    flex:2;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
